@@ -1,0 +1,26 @@
+This is a project of Cache Simulator
+
+It demonstrates how the computer access the memory through cache reference.
+The address of the block in memory is places in cache using Direct Cache Mapping placement policy.
+The address is divided into 3 parts; tag, set number, block offset - to determine where it will be stored in the Cache
+
+Usage:    
+Specify the input in the following format
+./cache    [-hv]    -s    <s>    -E    <E>    -b    <b>    -t    <tracefile> 
+-h:    Optional help ﬂag that prints usage info
+-v:    Optional verbose ﬂag that displays trace info
+-s    <s>:    Number of set index bits (S = 2^s is the number of sets) 
+-E    <E>:    Associativity (number of lines per set)
+-b    <b>:    Number of block bits (B = 2^b is the block size) 
+-t    <tracefile>:  Name/Path of the memory trace
+
+HIT is when the cache memory access is successful, that is the tag match and block is available
+MISS is when the address isn't available in cache. The address is added to the cache
+
+******
+Files:
+******
+
+cache.c                 The cache simulator
+README                  This file
+traces/                 Contains trace files used for cache simulator
