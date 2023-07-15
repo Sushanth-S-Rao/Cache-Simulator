@@ -18,10 +18,10 @@ Specify the input in the following format
 |:---------------|:-----------------------------------------------|
 |-h              | Optional help ﬂag that prints usage info |
 |-v              | Optional verbose ﬂag that displays trace info |  
-|-s  /<s>         | Number of set index bits (S = 2^s is the number of sets) |  
-|-E  /<E>         | Associativity (number of lines per set) |
-|-b  /<b>         | Number of block bits (B = 2^b is the block size) |   
-|-t  /<tracefile> | Name/Path of the memory trace |
+|-s  \<s\>         | Number of set index bits (S = 2^s is the number of sets) |  
+|-E  \<E>         | Associativity (number of lines per set) |
+|-b  \<b>         | Number of block bits (B = 2^b is the block size) |   
+|-t  \<tracefile> | Name/Path of the memory trace |
 
 HIT is when the cache memory access is successful, that is the tag match and block is available
 MISS is when the address isn't available in cache. The address is added to the cache
