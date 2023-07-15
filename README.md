@@ -27,6 +27,6 @@ HIT is when the cache memory access is successful, that is the tag match and blo
 MISS is when the address isn't available in cache. The address is added to the cache  
 
 ## Files:
-cache.c                 The cache simulator  
-README                  This file  
-traces/                 Contains trace files used for cache simulator  
+cache.c  | The cache simulator  
+README   | This file  
+traces/  | Contains trace files used for cache simulator  
