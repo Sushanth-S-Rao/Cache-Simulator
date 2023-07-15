@@ -14,11 +14,11 @@ This is a cache simulator that demonstrates how the memory access through cache.
 Specify the input in the following format  
 `./cache    [-hv]    -s    <s>    -E    <E>    -b    <b>    -t    <tracefile>`
 
-|Parameter       |Functionality|
-|:---------------|:-----------------------------------------------|
-|-h              | Optional help ﬂag that prints usage info |
-|-v              | Optional verbose ﬂag that displays trace info |  
-|-s  \<s\>         | Number of set index bits (S = 2^s is the number of sets) |  
+|Parameter        |Functionality|
+|:----------------|:-----------------------------------------------|
+|-h               | Optional help ﬂag that prints usage info |
+|-v               | Optional verbose ﬂag that displays trace info |  
+|-s  \<s>         | Number of set index bits (S = 2^s is the number of sets) |  
 |-E  \<E>         | Associativity (number of lines per set) |
 |-b  \<b>         | Number of block bits (B = 2^b is the block size) |   
 |-t  \<tracefile> | Name/Path of the memory trace |
