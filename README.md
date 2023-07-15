@@ -5,7 +5,7 @@ This is a cache simulator that demonstrates how the memory access through cache.
 
 ## Technology Stack
 - C: Cache Simulator is implemented using C
-- Cache Memory (Refer this to brush up your understanding of [cache](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f09/www/lectures/23-caches.pdf))
+- Cache Memory (Refer [this](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f09/www/lectures/23-caches.pdf) to brush up your understanding of cache)
 - Cache Structure: Tag, Set Number, Block Offset
 - Placement Policy: Direct Cache Mapping
 - Replacement Policy: Least Recently Used (LRU)
