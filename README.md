@@ -29,4 +29,4 @@ MISS is when the address isn't available in cache. The address is added to the c
 ## Files:
 cache.c &nbsp; &nbsp; &nbsp; Source Code  
 README &nbsp; &nbsp; This file  
-traces/ &nbsp; &nbsp; &nbsp; &nbsp; Contains trace files used for cache simulator  
+traces/ &nbsp;&nbsp;&nbsp;&nbsp; Contains trace files used for cache simulator  
