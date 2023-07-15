@@ -11,7 +11,7 @@ This is a cache simulator that demonstrates how the memory access through cache.
 - Replacement Policy: Least Recently Used (LRU)
 
 ## Usage    
-Specify the input in the following format
+Specify the input in the following format  
 `./cache    [-hv]    -s    <s>    -E    <E>    -b    <b>    -t    <tracefile>`
 
 |Parameter       |Functionality|
