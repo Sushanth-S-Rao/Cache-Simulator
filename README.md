@@ -23,10 +23,10 @@ Specify the input in the following format
 |-b  \<b>         | Number of block bits (B = 2^b is the block size) |   
 |-t  \<tracefile> | Name/Path of the memory trace |
 
-HIT is when the cache memory access is successful, that is the tag match and block is available
-MISS is when the address isn't available in cache. The address is added to the cache
+HIT is when the cache memory access is successful, that is the tag match and block is available  
+MISS is when the address isn't available in cache. The address is added to the cache  
 
 ## Files:
-cache.c                 The cache simulator
-README                  This file
-traces/                 Contains trace files used for cache simulator
+cache.c                 The cache simulator  
+README                  This file  
+traces/                 Contains trace files used for cache simulator  
